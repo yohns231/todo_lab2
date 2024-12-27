@@ -1,0 +1,33 @@
+
+
+
+.btn{
+    background-color: #212529;
+    color : white;
+}
+
+
+.todayListGroup{
+    height: 500px;
+    overflow-y: scroll;
+    border: 1px solid #ddd; 
+}
+
+.list-group-item {
+    height: 50px; 
+}
+
+.list-group-item {
+    transition: transform 1s ease, opacity 1s ease;
+}
+
+.swiped-left{
+    transform:  translateX(-100%);
+    opacity: 0;
+}
+
+.swiped-left-remove{
+    transform: translateX(-100%);
+    opacity: 0;
+    display: none;
+}
